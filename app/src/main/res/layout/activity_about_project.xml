@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <include layout="@layout/main_toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                style="@style/about_project"
+                android:text="1. 首先感谢各位开源爱好者提供的车轮"/>
+
+            <TextView
+                style="@style/about_project"
+                android:text="2. 本项目为练手项目，数据从网上抓取，不会上架获利" />
+            <TextView
+                style="@style/about_project"
+                android:text="3. 有关更多内容请移步GitHub"/>
+
+            <TextView
+                style="@style/about_project"
+                android:text="4. 项目地址：https://github.com/money4marry/Just4Fun" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
