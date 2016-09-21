@@ -145,7 +145,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
             Intent intent = new Intent(Intent.ACTION_SEND); // 启动分享发送的属性
             intent.setType("text/plain"); // 分享发送的数据类型
             intent.putExtra(Intent.EXTRA_TEXT, shareContent); // 分享的内容
-            startActivity(Intent.createChooser(intent, "选择分享"));// 目标应用选择对话框的标题
+            startActivity(Intent.createChooser(intent, "分享"));// 目标应用选择对话框的标题
         } else if (id == R.id.nav_about) {
             startActivity(new Intent(mContext, AboutActivity.class));
         }
